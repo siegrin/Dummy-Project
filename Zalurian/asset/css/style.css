@@ -1,0 +1,205 @@
+body {
+    background-color: silver;
+    background-image: url(../img/sativa.png);
+    width: 960px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    background-color: royalblue;
+}
+
+.header .container {
+    padding: 0 20px;
+    margin: 10px 0;
+    float: left;
+}
+
+.header .logo {
+    font-size: 35px;
+    color: navy;
+    font-weight: bold;
+    padding: 5px;
+    transition: color 0.3s;
+}
+
+.header .logo .logo_span {
+    color: black;
+    transition: color 0.3s;
+}
+
+.header .logo .logo_span:hover {
+    color: silver;
+}
+
+.header .logo:hover {
+    color: black;
+}
+
+.nav {
+    background-color: #39398e;
+}
+
+.nav ul li {
+    display: inline-block;
+    text-align: center;
+}
+
+.nav ul li a {
+    display: block;
+    color: silver;
+    padding: 10px 22px;
+    transition: background-color 0.3s, color 0.3s;
+    font-weight: bold;
+}
+
+.nav ul li a:hover {
+    background-color: royalblue;
+    color: black;
+}
+
+.main{
+    background-color: #39398e;
+    padding: 20px;
+    color: silver;
+}
+
+
+.content{
+    width: 700px;
+    float: left;
+}
+
+.title-article{
+    font-size: 24px;
+    padding: 0 0 5px 0;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.content-container{
+    padding: 0 0 10px 0;
+    margin: 10px;
+    text-align: justify;
+}
+
+.content p{
+    font-size: 13px;
+    padding: 10px 0px 10px 0;
+}
+
+.content-container .button{
+    font-size: 14px;
+    color: black;
+    padding: 5px;
+    background-color: #7ed092;
+    float: right;
+    border-radius: 10px;
+}
+
+.content-container .button:hover{
+    background-color: rgb(2, 2, 2);
+    transition: 0.3s;
+}
+
+.content-container .button a:hover{
+    color: silver;
+}
+
+.sidebar{
+    width: 210px;
+    float: right;
+    padding-bottom: 25px;
+}
+
+.sidebar h1{
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+.sidebar ul{
+    padding: 0 10px;
+}
+
+.sidebar ul li{
+    margin: 10px;
+    list-style-type: disc;
+}
+
+.sidebar a{
+    color: white;
+    font-size: 11px;
+}
+
+.sidebar a:hover{
+    color: #7ed092;
+}
+
+footer{
+    background-color: royalblue;
+    padding: 20px;
+}
+
+footer .footer_container{
+    width: 240px;
+    float: left;
+    padding: 20px 20px 20px 0;
+    margin: 5px;
+}
+
+footer .footer_container h1{
+    color: white;
+    font-size: 15px;
+    padding-bottom: 10px;
+
+}
+
+footer .footer_container ul{
+    padding-bottom: 10px;
+}
+
+footer .footer_container a{
+    color: silver;
+    font-size: 11px;
+
+}
+
+form{
+    padding: 10px 0;
+}
+
+.form input, textarea{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form input{
+    width: 200px;
+    height: 20px;
+}
+
+.form textarea{
+    width: 200px;
+    height: 80px;
+}
+
+.copy{
+    color: white;
+    text-align: center;
+}
+
+
+
+
+
+/* Clearfix */
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
