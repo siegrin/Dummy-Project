@@ -1,2 +1,1 @@
-
-[<img src="../img/Zalurian.png" alt="Zalurian">]
+<img src="../img/Zalurian.png" alt="Zalurian">
